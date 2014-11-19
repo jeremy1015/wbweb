@@ -2,22 +2,213 @@
 layout: default
 ---
 
-<div class="home">
+<!-- REVOLUTION SLIDER -->
+      <div class="fullwidthbanner-container roundedcorners">
+        <div class="fullwidthbanner">
+          <ul>  
 
-  <h1 class="page-heading">Posts</h1>
+            <!-- SLIDE  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <!-- COVER IMAGE -->
+              <img src="assets/images/demo/revolution_slider/sliderbg.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+              <!-- LAYER NR. 1 -->
+              <div class="tp-caption lightgrey_divider skewfromrightshort customout"
+                data-x="85"
+                data-y="224"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="1200"
+                data-easing="Power4.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                data-captionhidden="off"
+                style="z-index: 2">
+              </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+              <!-- LAYER NR. 2 -->
+              <div class="tp-caption customin customout"
+                data-x="right" data-hoffset="-220"
+                data-y="bottom" data-voffset="0"
+                data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="800"
+                data-start="700"
+                data-easing="Power4.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                style="z-index: 3"><img src="assets/images/demo/revolution_slider/desktop_slider_2.png" alt="">
+              </div>
 
-</div>
+              <!-- LAYER NR. 2 -->
+              <div class="tp-caption customin customout"
+                data-x="right" data-hoffset="-100"
+                data-y="bottom" data-voffset="0"
+                data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="1500"
+                data-start="700"
+                data-easing="Elastic.easeInOut"
+                data-endspeed="500"
+                data-endeasing="Power1.easeIn"
+                style="z-index: 3"><img src="assets/images/demo/revolution_slider/slider_run.png" alt="">
+              </div>
+
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption large_bold_grey skewfromrightshort customout"
+                data-x="80"
+                data-y="66"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="800"
+                data-easing="Back.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                data-captionhidden="off"
+                style="z-index: 4">Engineering
+              </div>
+
+              <!-- LAYER NR. 4 -->
+              <div class="tp-caption large_bold_grey skewfromleftshort customout"
+                data-x="80"
+                data-y="122"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="300"
+                data-start="1100"
+                data-easing="Back.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                data-captionhidden="off"
+                style="z-index: 7">Solutions
+              </div>
+
+              <!-- LAYER NR. 5 -->
+              <div class="tp-caption small_thin_grey customin customout"
+                data-x="80"
+                data-y="230"
+                data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="1300"
+                data-easing="Power4.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                data-captionhidden="off"
+                style="z-index: 8">
+                Whiteboard Federal has the lorem ipsum<br /> 
+                for your dolor sit amet and you better<br /> 
+                believe it! <strong>Teamwork!</strong><br />
+                <a href="index-more.html">Join our team...</a>
+              </div>
+
+              <!-- LAYER NR. 6 -->
+              <div class="tp-caption large_bold_darkblue skewfromleftshort customout"
+                data-x="80" data-hoffset="-90"
+                data-y="350"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="1600"
+                data-easing="Back.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                data-captionhidden="off"
+                style="z-index: 10">Talent
+              </div>
+
+              <!-- LAYER NR. 7 -->
+              <div class="tp-caption medium_bg_darkblue skewfromleftshort customout"
+                data-x="80" data-hoffset="-90"
+                data-y="410"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="1650"
+                data-easing="Back.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                data-captionhidden="off"
+                style="z-index: 11">Teamwork
+              </div>
+              <!--
+              <div class="tp-caption medium_bold_orange skewfromleftshort customout start font300"
+                data-x="230" data-hoffset="-90"
+                data-y="370"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="1850"
+                data-easing="Back.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                data-captionhidden="off"
+                style="z-index: 13;">Fully <strong>Responsive</strong>
+              </div>
+            -->
+
+              <!-- LAYER NR. 8 -->
+              <div class="tp-caption medium_bg_orange skewfromleftshort customout"
+                data-x="230" data-hoffset="-90"
+                data-y="410"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="2300"
+                data-easing="Back.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                data-captionhidden="off"
+                style="z-index: 21">Something Here
+              </div>
+            </li>
+
+          </ul>
+          <div class="tp-bannertimer"></div>
+        </div>
+      </div>
+      <!-- /REVOLUTION SLIDER -->
+
+<section class="container text-center">
+        <h1 class="text-center">
+          <strong>Welcome</strong> to Atropos
+          <span class="subtitle">COME ON, DON'T BE SHY! TODAY WE DON'T BITE!</span>
+        </h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+</section>
+
+<div class="divider"><!-- divider -->
+          <i class="fa fa-star"></i>
+        </div>
+
+
+<section class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="featured-box nobg border-only">
+        <div class="box-content">
+          <i class="fa fa-users"></i>
+          <h4>For Everyone</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="featured-box nobg border-only left-separator">
+        <i class="fa fa-book"></i>
+        <h4>Well Documented</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="featured-box nobg border-only left-separator">
+        <i class="fa fa-trophy"></i>
+        <h4>For Your Business</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="featured-box nobg border-only left-separator">
+        <i class="fa fa-cogs"></i>
+        <h4>Highly Customizable</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+</section>
