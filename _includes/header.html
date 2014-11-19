@@ -1,27 +1,443 @@
-<header class="site-header">
 
-  <div class="wrapper">
+<!-- Top Bar -->
+    <header id="topHead">
+      <div class="container">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <!-- PHONE/EMAIL -->
+        <span class="quick-contact pull-left">
+          <i class="fa fa-phone"></i> (571) 526-4028 &bull; 
+          <a class="hidden-xs" href="mailto:mail@yourdomain.com">info@whiteboardfederal.com</a>
+        </span>
+        <!-- /PHONE/EMAIL -->
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
+        <!-- LANGUAGE -->
+        <div class="btn-group pull-right hidden-xs">
+          <button class="dropdown-toggle language" type="button" data-toggle="dropdown">
+            <img src="assets/images/flags/us.png" width="16" height="11" alt="EN Language" /> English <span class="caret"></span>
+          </button>
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">
+                <img src="assets/images/flags/us.png" width="16" height="11" alt="EN Language" /> [US] English
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/flags/de.png" width="16" height="11" alt="DE Language" /> [DE] German
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/flags/fr.png" width="16" height="11" alt="FR Language" /> [FR] French
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/flags/ru.png" width="16" height="11" alt="RU Language" /> [RU] Russian
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /LANGUAGE -->
+
+
+        <!-- SIGN IN -->
+        <div class="pull-right nav signin-dd">
+          <a id="quick_sign_in" href="page-signin.html" data-toggle="dropdown"><i class="fa fa-users"></i><span class="hidden-xs"> Sign In</span></a>
+          <div class="dropdown-menu" role="menu" aria-labelledby="quick_sign_in">
+
+            <h4>Sign In</h4>
+            <form action="page-signin.html" method="post" role="form">
+
+              <div class="form-group"><!-- email -->
+                <input required type="email" class="form-control" placeholder="Username or email">
+              </div>
+
+              <div class="input-group">
+
+                <!-- password -->
+                <input required type="password" class="form-control" placeholder="Password">
+                
+                <!-- submit button -->
+                <span class="input-group-btn">
+                  <button class="btn btn-primary">Sign In</button>
+                </span>
+
+              </div>
+
+              <div class="checkbox"><!-- remmember -->
+                <label>
+                  <input type="checkbox"> Remember me &bull; <a href="page-signin.html">Forgot password?</a>
+                </label>
+              </div>
+
+            </form>
+
+            <hr />
+            
+            <a href="#" class="btn-facebook fullwidth radius3"><i class="fa fa-facebook"></i> Connect With Facebook</a>
+            <a href="#" class="btn-twitter fullwidth radius3"><i class="fa fa-twitter"></i> Connect With Twitter</a>
+            <!--<a href="#" class="btn-google-plus fullwidth radius3"><i class="fa fa-google-plus"></i> Connect With Google</a>-->
+
+            <p class="bottom-create-account">
+              <a href="page-signup.html">Manual create account</a>
+            </p>
+          </div>
+        </div>
+        <!-- /SIGN IN -->
+
+        <!-- CART MOBILE BUTTON -->
+        <a class="pull-right" id="btn-mobile-quick-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+        <!-- CART MOBILE BUTTON -->
+
+        <!-- LINKS -->
+        <div class="pull-right nav hidden-xs">
+          <a href="page-about-us.html"><i class="fa fa-angle-right"></i> About</a>
+          <a href="contact-us.html"><i class="fa fa-angle-right"></i> Contact</a>
+        </div>
+        <!-- /LINKS -->
+
       </div>
-    </nav>
+    </header>
+    <!-- /Top Bar -->
 
-  </div>
+    <!-- TOP NAV -->
+    <header id="topNav" class="topHead"><!-- remove class="topHead" if no topHead used! -->
+      <div class="container">
 
-</header>
+        <!-- Mobile Menu Button -->
+        <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="logo" href="{{ "/index.html" | prepend: site.baseurl }}">
+          <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" alt="Whiteboard Federal" style="height:60px;"/>
+        </a>
+
+        <!-- Top Nav -->
+        <div class="navbar-collapse nav-main-collapse collapse pull-right">
+          <nav class="nav-main mega-menu">
+            <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
+              <li class="dropdown active">
+                <a class="dropdown-toggle" href="#">
+                  Home <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu"><a href="#">Revolution Slider</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="revolution-half-slider.html">Half Slider</a></li>
+                      <li><a href="revolution-full-slider.html">Full Slider</a></li>
+                      <li><a href="revolution-video.html">Full Video</a></li>
+                      <li><a href="revolution-ken-burns.html">Ken Burns</a></li>
+                      <li><a href="revolution-official-1.html">More Examples</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">Superslides Slider</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="superslides-slider-half.html">Half Slider</a></li>
+                      <li><a href="superslides-slider-full.html">Full Slider</a></li>
+                      <li><a href="superslides-video.html">Half Video</a></li>
+                      <li><a href="superslides-video-full.html">Full Video</a></li>
+                    </ul>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="index-extended.html">Extended</a></li>
+                  <li><a href="portfolio-home.html">Portfolio</a></li>
+                  <li><a href="shop-home.html">Shop</a></li>
+                  <li><a href="realestate-home.html">Real Estate</a></li>
+                  <li><a href="church-home.html">Church</a></li>
+                  <li><a href="medical-home.html">Medical</a></li>
+                  <li><a href="college-home.html">College</a></li>
+                  <li class="divider"></li>
+                  <li><a href="onepage-superslides.html" target="_blank">Onepage - Superslides</a></li>
+                  <li><a href="onepage-revolution.html" target="_blank">Onepage - Revolution</a></li>
+                  <li><a href="index-more.html">More...</a></li>
+                </ul>
+              </li>
+              <li class="dropdown mega-menu-item mega-menu-two-columns">
+                <a class="dropdown-toggle" href="#">
+                  Pages <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="mega-menu-content">
+                      <div class="row">
+
+                        <div class="col-md-6">
+                          <ul class="sub-menu">
+                            <li>
+                              <ul class="sub-menu">
+
+                                <li><a href="shortcodes-rows.html"><i class="fa fa-star-o"></i> Shortcodes</a></li>
+                                <li><a href="page-about-us.html"><i class="fa fa-check-square-o"></i> About Us</a></li>
+                                <li><a href="page-about-me.html"><i class="fa fa-check-square-o"></i> About Me</a></li>
+                                <li><a href="page-team.html"><i class="fa fa-check-square-o"></i> Team</a></li>
+                                <li><a href="page-services.html"><i class="fa fa-check-square-o"></i> Services</a></li>
+                                <li><a href="page-faq.html"><i class="fa fa-check-square-o"></i> FAQ</a></li>
+                                <li><a href="page-support.html"><i class="fa fa-check-square-o"></i> Support</a></li>
+                                <li><a href="page-privacy-policy.html"><i class="fa fa-check-square-o"></i> Privacy Policy</a></li>
+                                <li><a href="page-terms-and-conditions.html"><i class="fa fa-check-square-o"></i> Terms Page</a></li>
+                                <li><a href="page-invoice.html"><i class="fa fa-check-square-o"></i> Invoice</a></li>
+                                <li class="dropdown-submenu">
+                                  <a href="#"><i class="fa fa-check-square-o"></i> Contact</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="contact-us.html">Version 1</a></li>
+                                    <li><a href="contact-us-2.html">Version 2</a></li>
+                                    <li><a href="contact-us-3.html">Version 3</a></li>
+                                    <li><a href="contact-us-4.html">Version 4</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href="page-sitemap.html"><i class="fa fa-sitemap"></i> Sitemap</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="col-md-6">
+                          <ul class="sub-menu">
+                            <li>
+                              <ul class="sub-menu">
+                                <li><a href="page-testimonials.html"><i class="fa fa-check-square-o"></i> Testimonials</a></li>
+                                <li><a href="page-pricing.html"><i class="fa fa-check-square-o"></i> Pricing</a></li>
+                                <li><a href="page-signin.html"><i class="fa fa-check-square-o"></i> Login</a></li>
+                                <li><a href="page-signup.html"><i class="fa fa-check-square-o"></i> Register</a></li>
+                                <li><a href="page-404.html"><i class="fa fa-check-square"></i> 404 Error</a></li>
+                                <li><a href="page-maintenance.html"><i class="fa fa-check-square"></i> Maintenance</a></li>
+                                <li class="dropdown-submenu">
+                                  <a href="#"><i class="fa fa-check-square"></i> Coming Soon</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="page-coming-soon-image.html">Coming Soon - Image</a></li>
+                                    <li><a href="page-coming-soon-video.html">Coming Soon - Video</a></li>
+                                  </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                  <a href="#"><i class="fa fa-check-square"></i> Custom Header</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="page-header-basic.html">Basic</a></li>
+                                    <li><a href="page-header-image.html">Image</a></li>
+                                    <li><a href="page-header-overlay1.html">Overlay 1</a></li>
+                                    <li><a href="page-header-overlay2.html">Overlay 2</a></li>
+                                    <li><a href="page-header-overlay3.html">Overlay 3</a></li>
+                                    <li><a href="page-header-delayed-parallax.html">Delayed Parallax</a></li>
+                                    <li><a href="page-header-standard-parallax.html">Standard Parallax</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href="page-full-width.html"><i class="fa fa-check-square-o"></i> Full width</a></li>
+                                <li><a href="page-left-sidebar.html"><i class="fa fa-check-square-o"></i> Left Sidebar</a></li>
+                                <li><a href="page-right-sidebar.html"><i class="fa fa-check-square-o"></i> Right Sidebar</a></li>
+                                <li><a href="email-template.html"><i class="fa fa-envelope"></i>Email Template</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                            
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown mega-menu-item mega-menu-fullwidth">
+                <a class="dropdown-toggle" href="#">
+                  Features <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="mega-menu-content">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <ul class="sub-menu">
+                            <li>
+                              <span class="mega-menu-sub-title">General Features</span>
+                              <ul class="sub-menu">
+                                <li><a href="feature-grid-system.html">Grid System</a></li>
+                                <li><a href="feature-icons.html">Icons</a></li>
+                                <li><a href="feature-pricing-tables.html"><em>Pricing Tables</em></a></li>
+                                <li><a href="feature-testimonials.html"><em>Testimonials</em></a></li>
+                                <li><a href="email-template.html"><em>Email Template</em></a></li>
+                                <li><a href="shortcodes-rows.html"><em>Shortcodes</em></a></li>
+                                <li><a href="feature-animations.html">Animations</a></li>
+                                <li><a href="feature-typograpy.html">Typograpy</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul class="sub-menu">
+                            <li>
+                              <span class="mega-menu-sub-title">Sliders</span>
+                              <ul class="sub-menu">
+                                <li><a href="feature-content-carousel.html">Content Carousel</a></li>
+                                <li><a href="revolution-official-1.html">(17) Premium Revolution Slider</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul class="sub-menu">
+                            <li>
+                              <span class="mega-menu-sub-title">Headers</span>
+                              <ul class="sub-menu">
+                                <li><a href="header-1.html">Header Version 1</a></li>
+                                <li><a href="header-2.html">Header Version 2</a></li>
+                                <li><a href="header-3.html">Header Version 3</a></li>
+                                <li><a href="header-4.html">Header Version 4</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul class="sub-menu">
+                            <li>
+                              <span class="mega-menu-sub-title">Unique Bonuses</span>
+                              <ul class="sub-menu">
+                                <li><a href="onepage-superslides.html" target="_blank">Onepage - Superslides</a></li>
+                                <li><a href="onepage-revolution.html" target="_blank">Onepage - Revolution</a></li>
+                                <li><a href="email-template.html">Email Template</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#">
+                  <b>Special</b> <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="magazine-home.html">Magazine - Home</a></li>
+                  <li><a href="magazine-category.html">Magazine - Category</a></li>
+                  <li><a href="magazine-single.html">Magazine - Single</a></li>
+                  <li class="divider"></li>
+                  <li><a href="realestate-home.html">Real Estate - Home</a></li>
+                  <li><a href="realestate-list.html">Real Estate - List</a></li>
+                  <li><a href="realestate-single.html">Real Estate - Single</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#">
+                  Shop <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="shop-home.html">Shop - Home</a></li>
+                  <li class="divider"></li>
+                  <li><a href="shop-full-width.html">Shop Full Width</a></li>
+                  <li><a href="shop-product-full-width.html">Shop Product Full Width</a></li>
+                  <li class="divider"></li>
+                  <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                  <li><a href="shop-product-sidebar.html">Shop Product Sidebar</a></li>
+                  <li class="divider"></li>
+                  <li><a href="shop-cart.html">Shop Cart</a></li>
+                  <li><a href="shop-cc-pay.html">Shop Credit Card</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#">
+                  Blog <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="blog-full-width.html">Blog Without Sidebar</a></li>
+                  <li><a href="blog-left-sidebar.html">Blog With Sidebar Left</a></li>
+                  <li><a href="blog-right-sidebar.html">Blog With Sidebar Right</a></li>
+                  <li><a href="blog-timeline.html">Blog Timeline</a></li>
+                  <li><a href="blog-masonry.html">Blog Masonry</a></li>
+                  <li><a href="blog-masonry-full-width.html">Blog Masonry - Full Width</a></li>
+                  <li><a href="blog-masonry-sidebar.html">Blog Masonry - Sidebar</a></li>
+                  <li class="divider"></li>
+                  <li><a href="blog-post.html">Single Post</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#">
+                  Portfolio <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="portfolio-2-columns.html">2 Columns</a></li>
+                  <li><a href="portfolio-3-columns.html">3 Columns</a></li>
+                  <li><a href="portfolio-4-columns.html">4 Columns</a></li>
+                  <li><a href="portfolio-lightbox.html">Portfolio - Gallery</a></li>
+                  <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
+                  <li><a href="portfolio-full-center.html">Portfolio Full Center</a></li>
+                  <li class="divider"></li>
+                  <li><a href="portfolio-single.html">Single - Basic</a></li>
+                  <li><a href="portfolio-single-extended.html">Single - Extended</a></li>
+                  <li><a href="portfolio-single-full-slider.html">Single - Full Slider</a></li>
+                </ul>
+              </li>
+
+              <!-- GLOBAL SEARCH -->
+              <li class="search">
+                <!-- search form -->
+                <form method="get" action="#" class="input-group pull-right">
+                  <input type="text" class="form-control" name="k" id="k" value="" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary notransition"><i class="fa fa-search"></i></button>
+                  </span>
+                </form>
+                <!-- /search form -->
+              </li>
+              <!-- /GLOBAL SEARCH -->
+
+              <!-- QUICK SHOP CART -->
+              <li class="quick-cart">
+                <span class="badge pull-right">3</span>
+                
+                <div class="quick-cart-content">
+
+                  <p><i class="fa fa-warning"></i> You have 3 products on your cart</p>
+
+                  <a class="item" href="shop-product-full-width.html"><!-- item 1 -->
+                    <img class="pull-left" src="assets/images/demo/shop/thumb/1.jpg" width="40" alt="quick cart" />
+                    <div class="inline-block">
+                      <span class="title">Man shirt XL</span>
+                      <span class="price">2 &times; $44.00</span>
+                    </div>
+                  </a><!-- /item 1 -->
+
+                  <a class="item" href="shop-product-full-width.html"><!-- item 2 -->
+                    <img class="pull-left" src="assets/images/demo/shop/thumb/2.jpg" width="40" alt="quick cart" />
+                    <div class="inline-block">
+                      <span class="title">Great Black Shoes For Man and Only Man...</span>
+                      <span class="price">2 &times; $44.00</span>
+                    </div>
+                  </a><!-- /item 2 -->
+
+                  <a class="item" href="shop-product-full-width.html"><!-- item 3 -->
+                    <img class="pull-left" src="assets/images/demo/shop/thumb/4.jpg" width="40" alt="quick cart" />
+                    <div class="inline-block">
+                      <span class="title">Pink Lady Perfect Shoes</span>
+                      <span class="price">1 &times; $67.32</span>
+                    </div>
+                  </a><!-- /item 3 -->
+
+                  <!-- QUICK CART BUTTONS -->
+                  <div class="row cart-footer">
+                    <div class="col-md-6 nopadding-right">
+                      <a href="shop-cart.html" class="btn btn-primary btn-xs fullwidth">VIEW CART</a>
+                    </div>
+                    <div class="col-md-6 nopadding-left">
+                      <a href="shop-cc-pay.html" class="btn btn-info btn-xs fullwidth">CHECKOUT</a>
+                    </div>
+                  </div>
+                  <!-- /QUICK CART BUTTONS -->
+
+                </div>
+
+              </li>
+              <!-- /QUICK SHOP CART -->
+
+
+            </ul>
+          </nav>
+        </div>
+        <!-- /Top Nav -->
+
+      </div>
+    </header>
+
+    <span id="header_shadow"></span>
+    <!-- /TOP NAV -->
