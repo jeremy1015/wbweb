@@ -2,10 +2,15 @@
 layout: page
 title: Open Positions
 ---
+<div class="white-row styleBackground">
+	<h3><strong>Continually Open Positions</strong></h3>
+	<p>We're always on the lookout for talented cleared engineers in the D.C. area. If you've got the skills our community is looking for but you don't see exactly what you want, <a href="mailto:info@whiteboardfederal.com">reach out anyway</a>.</p>
+	<p>Blah blah Java, blah blah cloud computing, blah blah Hadoop</p>
+</div>
 {% for post in site.posts %}
 <div class="white-row">
 	<h3><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></h3>
 	<p>{{ post.summary }}</p>
-	<a href="{{ post.url }}">See More</a> * <a href="{{ post.url }}">Apply</a>
+	<i class="fa fa-eye"></i> <a href="{{ post.url }}">See More</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-paper-plane"></i> <a href="{{ post.url }}">Apply</a>
 </div>  
 {% endfor %}
