@@ -1,15 +1,48 @@
 ---
 layout: default
 ---
-<div class="post">
+<!-- PAGE TITLE -->
+<header id="page-title">
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+		<ul class="breadcrumb">
+			<li><a href="{{ "/index.html" | prepend: site.baseurl }}">Home</a></li>
+			<li><a href="{{ "/open-positions.html" | prepend: site.baseurl }}">Open Positions</a></li>
+			<li class="active">{{ page.title }}</li>
+		</ul>
+	</div>
+</header>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<section class="container">
+	<div class="alert alert-info">
+		<i class="fa fa-info-circle"> </i> <strong>Notice:</strong> This position requires a {{ page.clearance }}
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="widget">
+				<h3>EXPERIENCE</h3>
+				<strong>{{ page.experience }}</strong>
+			</div>
+			<hr class="half-margins" />
+			<div class="widget">
+				<h3>KEY SKILLS</h3>
+				<ul>
+				  {% for skill in page.skills %}
+				    <li>
+				      {{ skill }}
+				    </li>
+				  {% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<h2>{{ page.title }} in <strong>{{ page.location }}</strong></h2>
+			<p class="lead">{{ page.summary }}</p>
+			<div class="divider">
+				<i class="fa fa-star"></i>
+			</div>
+			{{ content }}
+		</div>
+	</div>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+</section>

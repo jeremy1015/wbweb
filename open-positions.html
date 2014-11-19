@@ -1,0 +1,11 @@
+---
+layout: page
+title: Open Positions
+---
+{% for post in site.posts %}
+<div class="white-row">
+	<h3><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></h3>
+	<p>{{ post.summary }}</p>
+	<a href="{{ post.url }}">See More</a> * <a href="{{ post.url }}">Apply</a>
+</div>  
+{% endfor %}
