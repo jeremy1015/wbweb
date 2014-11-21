@@ -32,9 +32,17 @@ title: Open Positions
 	</div>
 	<div class="col-md-8">
 		<div class="white-row styleBackground">
-			<h3><strong>Continually Open Positions</strong></h3>
-			<p>While you'll see under here specific positions we're calling out, Whiteboard is always on the lookout for talented cleared engineers in the D.C. area. If you've got the skills our community is looking for but you don't see exactly what you want, <a href="mailto:info@whiteboardfederal.com">reach out anyway</a>.</p>
-			<p>Blah blah Java, blah blah cloud computing, blah blah Hadoop</p>
+			<h3><strong>Read This First!</strong></h3>
+			<p>Whiteboard is <em>always</em> on the lookout for great cleared talent. While you'll see specific positions we're calling out down below, we have constant openings for the following types of positions:</p>
+			<ul>
+				<li><a href="#" data-toggle="modal" data-target="#modalJobSWE">Software Engineers</a></li>
+				<li>Systems Engineers</li>
+				<li>Big Data Specialists</li>
+				<li>Data Scientists</li>
+				<li>Systems Administrators and DevOps</li>
+				<li>Information Systems Security Engineers</li>
+			</ul>
+			<p>To find out more, reach out to&nbsp;<a href="mailto:jennifer@whiteboardfederal.com"> Jennifer Sager</a></p>
 		</div>
 		{% for post in site.posts %}
 		<div class="white-row">
@@ -44,4 +52,43 @@ title: Open Positions
 		</div>  
 		{% endfor %}
 	</div>
+
+	<div class="modal fade" id="modalJobSWE" tabindex="-1" role="dialog" aria-labelledby="modalJobSWELabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header"><!-- modal header -->
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Software Engineer</h4>
+				</div><!-- /modal header -->
+
+				<!-- modal body -->
+				<div class="modal-body">
+					<p>Front end, back end, full stack - we take 'em all. We like developers who know how to strike a balance between clean coding and quick delivery. While we believe that the person matters more than the language, here are the most common ones we are asked for by our customers (and don't consider this our personal preferences, the language debates will rage on until the end of time):</p>
+					<ul>
+						<li>Java (and all its flavors; we even have a team doing Clojure)</li>
+						<li>JavaScript (including Node)... AngularJS and ExtJS.</li>
+						<li>Python, Ruby, a little PHP</li>
+						<li>Rarely C# and the .NET framework</li>
+					</ul>
+					<p>The frameworks, databases, and services that we hear about most often:</p>
+					<ul>
+						<li>Hadoop Ecosystem, including HBase, Accumulo, Hive, Flume, Pig</li>
+						<li>MongoDB</li>
+						<li>Amazon Web Services</li>
+						<li>Spring</li>
+						<li>Oracle, MySQL, and PostreSQL</li>
+					</ul>
+					<p>Look like you? Reach out to&nbsp;<a href="mailto:jennifer@whiteboardfederal.com"> Jennifer Sager</a></p>
+				</div>
+				<!-- /modal body -->
+
+				<div class="modal-footer"><!-- modal footer -->
+					<button class="btn btn-default" data-dismiss="modal">OK</button>
+				</div><!-- /modal footer -->
+
+			</div>
+		</div>
+	</div>
+
+
 </div>
