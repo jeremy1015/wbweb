@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hadoop Administrator"
+title:  "Hapoop Administrator"
 date:   2014-11-16 05:13:20
 categories: jekyll update
 clearance: TS/SCI with Full Scope Polygraph
