@@ -3,33 +3,31 @@ layout: post
 title:  "Hadoop Administrator"
 date:   2014-11-16 05:13:20
 categories: jekyll update
-clearance: TS/SCI with Full Scope Polygraph
-location: Centreville, Virginia
+clearance: TS/SCI with Active Polygraph
+location: Reston/Herndon, Virginia
 experience: 5 years
-skills: ['Hadoop', 'HDFS', 'Accumulo', 'Skill 3', 'Skill 4']
-summary: We are looking for someone with vision, to help us find unique and interesting ways to use Splunk in the IC. This engineer will work as a Splunk product domain expert, supporting the customer. The Splunk Architect will be responsible for the design and implementation of Splunk infrastructure, deployment, products, apps, reports, alerts, and dashboards for the customer. This engineer will manage Splunk knowledge objects (Apps, Dashboards, Saved Searches, Scheduled Searches, Alerts, etc.), and will be tasked with thinking about how to take Splunk and apply it to data, beyond log files.
+skills: ['Hadoop', 'HDFS', 'MapReduce', 'Flume/ Sqoop']
+summary: We are looking for a very strong Hadoop Administrator to join us on a proof of concept initiative where a small group will be setting up a Hadoop environment from scratch.
 ---
 
-#### Required
+While the project is research oriented, its fruits will be applied to a mission-critical system. Engineers will enjoy the fun, experimental, and fast-paced nature of an proof of concept program, with the satisfaction of building technology that will be utilized. This position is for someone who combines serious technical skills, with a thirst for challenge, and enough humility to be self-reflective about their technical decisions.
+
+#### Required / Desired
 
 * True, solid, hands-on Hadoop administrator experience! (We love architects, systems engineers, systems administrators, and developers with Hadoop experience - and we would be happy to talk with them about other programs we work on - but this role requires actual hands-on Hadoop administration experience.)
 
-* At least five years of hands-on experience in IT systems administration on Windows or UNIX platforms (RH Linux, SUSE Linux, HP-UX, Solaris, or equivalent). Experience must include specific expertise in using the command line to execute program installation and configuration.
+* Firm knowledge of HDFS and MapReduce
 
-* Three years of experience working with database query languages (T-SQL or equivalent); or experience with a widely available reporting tool (COGNOS, Crystal Reports, SSRS, Tableau, etc.).
+* Experience setting up clusters, preferably from the ground up, preferred
 
-* Excellent troubleshooting skills and strong technical learning aptitude.
+* Experience maintaining and monitoring clusters
+ 
+* Ability to create patches, script, and do some software development
 
-* Understanding of TCP/IP and networking
+* A deep understanding of Hadoop design principles and factors that affect distributed system performance, including hardware and network considerations/configurations
 
-#### Preferred
+* Ability to load data into the cluster from dynamically-generated files using Flume and from relational database management systems using Sqoop, preferred
 
-* True, solid, hands-on Hadoop administrator experience! (We love architects, systems engineers, systems administrators, and developers with Hadoop experience - and we would be happy to talk with them about other programs we work on - but this role requires actual hands-on Hadoop administration experience.)
+* A firm handle on what system administration issues exist within the Hadoop ecosystem and associated components such as Hive, Pig, and HBase
 
-* At least five years of hands-on experience in IT systems administration on Windows or UNIX platforms (RH Linux, SUSE Linux, HP-UX, Solaris, or equivalent). Experience must include specific expertise in using the command line to execute program installation and configuration.
-
-* Three years of experience working with database query languages (T-SQL or equivalent); or experience with a widely available reporting tool (COGNOS, Crystal Reports, SSRS, Tableau, etc.).
-
-* Excellent troubleshooting skills and strong technical learning aptitude.
-
-* Understanding of TCP/IP and networking
+* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance.
