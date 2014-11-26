@@ -10,6 +10,7 @@ summary: We are looking for a confident and capable full stack developer that en
 ---
 
 Every member of our team codes across all tiers, and the desire to do the same is necessary. In a week, you might integrate with a classic RDBMS, NoSQL data store, implement rest services in spring, integrate spring security with OID, and implement UI's with jQuery/ExtJS and D3.js. At the research lab, we move fast and constantly challenge each other (in a good way). You should expect to be able to defend your designs and ideas, without being defensive, and do the same of everyone else's. The team grows from each other's experience and realizes that everyone brings something unique to the team.
+---
 
 #### Required:
 
@@ -17,7 +18,7 @@ Every member of our team codes across all tiers, and the desire to do the same i
 
 * The list of tools/libraries/architectures that a candidate should be highly proficient in are: Java, JavaScript (OpenLayers, ExtJS 4.x, jQuery), CM Tools (JIRA, Confluence, FishEye, SVN, Subclipse/etc.), CI Tools (Hudson, Jenkins), Maven, ORM (Hibernate 3.6/4.0+), MVC (Spring, ExtJS 4.x), Annotations (e.g. as used in Hibernate/Spring), REST-based web services, HTML, CSS, Java Design Patterns & Best Practice
 
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance.
+* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
 
 #### Desired:
 
@@ -27,4 +28,4 @@ Every member of our team codes across all tiers, and the desire to do the same i
 
 * Unix/Linux Operating System familiarity
 
-* The list of tools/libraries/architectures that a candidate should be familiar with are: HTML5, Ajax, JAXB, Reverse Ajax implementations (DWR/Web Sockets), Grails, Spring Security, basic Linux command line navigation, SSL configuration, Web container configuration (setup of cluster, load-balancing, etc. in containers like JBoss/Tomcat). 
+* The list of tools/libraries/architectures that a candidate should be familiar with are: HTML5, Ajax, JAXB, Reverse Ajax implementations (DWR/Web Sockets), Grails, Spring Security, basic Linux command line navigation, SSL configuration, Web container configuration (setup of cluster, load-balancing, etc. in containers like JBoss/Tomcat)

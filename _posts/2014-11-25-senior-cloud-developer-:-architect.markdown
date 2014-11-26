@@ -12,11 +12,9 @@ summary: We seeking a technical architect to recommend, and help us plan, archit
 
 This project applies new big data technologies to a path-breaking and exciting field within the Intelligence Community. The team is small, tight-knit, and extremely talented so the right person for this role will be a strong communicator, who can self-reflect on technical decisions, and balance creativity with practical and provable solutions.
 
-A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance.
+#### Required
 
-#### Required:
-
-* 5-10+ years of software development, utilizing some combination of the following: Java, Javascript, C#, Ruby, Python, or Perl.
+* 5-10+ years of software development, utilizing some combination of the following: Java, Javascript, C#, Ruby, Python, or Perl
 
 * Strong experience with Hadoop, HDFS, Sqoop, and related technologies
 
@@ -24,4 +22,4 @@ A TS/SCI with an active poly is required by our customer. Please do not apply fo
 
 * Linux skills
 
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance.
+* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance

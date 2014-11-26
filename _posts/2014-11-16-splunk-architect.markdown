@@ -12,42 +12,42 @@ summary: We are looking for someone with vision to help us find unique and inter
 
 #### Required
 
-* Previous training or hands-on experience with Splunk.
+* Previous training or hands-on experience with Splunk
 
-* Knowledge of scripting (SH, BASH, KSH, PowerShell, etc.), with at least two years exposure to these environments.
+* Knowledge of scripting (SH, BASH, KSH, PowerShell, etc.), with at least two years exposure to these environments
 
-* At least five years of hands-on experience in IT systems administration on Windows or UNIX platforms (RH Linux, SUSE Linux, HP-UX, Solaris, or equivalent). Experience must include specific expertise in using the command line to execute program installation and configuration.
+* At least five years of hands-on experience in IT systems administration on Windows or UNIX platforms (RH Linux, SUSE Linux, HP-UX, Solaris, or equivalent). Experience must include specific expertise in using the command line to execute program installation and configuration
 
-* Three years of experience working with database query languages (T-SQL or equivalent); or experience with a widely available reporting tool (COGNOS, Crystal Reports, SSRS, Tableau, etc.).
+* Three years of experience working with database query languages (T-SQL or equivalent); or experience with a widely available reporting tool (COGNOS, Crystal Reports, SSRS, Tableau, etc.)
 
-* Understanding of TCP/IP and networking.
+* Understanding of TCP/IP and networking
 
-* Excellent troubleshooting skills and strong technical learning aptitude.
+* Excellent troubleshooting skills and strong technical learning aptitude
 
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance.
+* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
 
 #### Preferred
 
-* Splunk Architect Certification.
+* Splunk Architect Certification
 
-* Operational experience with a wide array of networking, relational database, security, or server virtualization technologies.
+* Operational experience with a wide array of networking, relational database, security, or server virtualization technologies
 
-* Experience with Virtualization technologies (VMware ESX, MS Hyper-V).
+* Experience with Virtualization technologies (VMware ESX, MS Hyper-V)
 
-* Some exposure and experience in one or more of the following programming languages: Java, C++, Python, Ruby, or Perl.
+* Some exposure and experience in one or more of the following programming languages: Java, C++, Python, Ruby, or Perl
 
-* Experience with Regular Expressions (REGEX).
+* Experience with Regular Expressions (REGEX)
 
-* Previous experience with a software configuration management system (subversion, git, hub, cvs, chef, puppet, SCCM, etc.).
+* Previous experience with a software configuration management system (subversion, git, hub, cvs, chef, puppet, SCCM, etc.)
 
-* Microsoft or Linux certifications.
+* Microsoft or Linux certifications
 
 #### Desired
 
-* Strong oral and written communication skills; including documentation.
+* Strong oral and written communication skills; including documentation
 
-* Ability to work collaboratively within Splunk analytics team; ability to work independently as well.
+* Ability to work collaboratively within Splunk analytics team; ability to work independently as well
 
-* Ability to handle multiple tasks concurrently.
+* Ability to handle multiple tasks concurrently
 
-* Strong interpersonal and leadership skills.
+* Strong interpersonal and leadership skills

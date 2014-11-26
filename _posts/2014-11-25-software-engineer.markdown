@@ -17,7 +17,7 @@ summary: We have a small team working on a program where we are rearchitecting a
 
 * A desire to learn and work in an environment that favors the functional programming paradigm over object oriented programming
 
-* A TS/SCI is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance.
+* A TS/SCI is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
 
 #### Preferred (In Descending Order):
 
