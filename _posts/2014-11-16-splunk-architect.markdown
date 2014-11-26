@@ -3,33 +3,51 @@ layout: post
 title:  "Splunk Architect"
 date:   2014-11-16 05:13:20
 categories: jekyll update
-clearance: TS/SCI with Full Scope Polygraph
+clearance: TS/SCI with Active Polygraph
 location: McLean, Virginia
 experience: 5 years
-skills: ['Hadoop', 'HDFS', 'Accumulo', 'Skill 3', 'Skill 4']
-summary: We are looking for someone with vision, to help us find unique and interesting ways to use Splunk in the IC. This engineer will work as a Splunk product domain expert, supporting the customer. The Splunk Architect will be responsible for the design and implementation of Splunk infrastructure, deployment, products, apps, reports, alerts, and dashboards for the customer. This engineer will manage Splunk knowledge objects (Apps, Dashboards, Saved Searches, Scheduled Searches, Alerts, etc.), and will be tasked with thinking about how to take Splunk and apply it to data, beyond log files.
+skills: ['Splunk', 'scripting languages such as BASH, SH, KSH, PowerShell', 'Unix', 'Linux', 'Windows', 'T-SQL', 'TCP/IP']
+summary: We are looking for someone with vision to help us find unique and interesting ways to use Splunk. This engineer will work as a Splunk product domain expert, supporting the customer. The Splunk Architect will be responsible for the design and implementation of Splunk infrastructure, deployment, products, apps, reports, alerts, and dashboards for the customer. This engineer will manage Splunk knowledge objects (Apps, Dashboards, Saved Searches, Scheduled Searches, Alerts, etc.), and will be tasked with thinking about how to take Splunk and apply it to data beyond log files.
 ---
 
 #### Required
 
-* True, solid, hands-on Hadoop administrator experience! (We love architects, systems engineers, systems administrators, and developers with Hadoop experience - and we would be happy to talk with them about other programs we work on - but this role requires actual hands-on Hadoop administration experience.)
+* Previous training or hands-on experience with Splunk.
+
+* Knowledge of scripting (SH, BASH, KSH, PowerShell, etc.), with at least two years exposure to these environments.
 
 * At least five years of hands-on experience in IT systems administration on Windows or UNIX platforms (RH Linux, SUSE Linux, HP-UX, Solaris, or equivalent). Experience must include specific expertise in using the command line to execute program installation and configuration.
 
 * Three years of experience working with database query languages (T-SQL or equivalent); or experience with a widely available reporting tool (COGNOS, Crystal Reports, SSRS, Tableau, etc.).
 
+* Understanding of TCP/IP and networking.
+
 * Excellent troubleshooting skills and strong technical learning aptitude.
 
-* Understanding of TCP/IP and networking
+* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance.
 
 #### Preferred
 
-* True, solid, hands-on Hadoop administrator experience! (We love architects, systems engineers, systems administrators, and developers with Hadoop experience - and we would be happy to talk with them about other programs we work on - but this role requires actual hands-on Hadoop administration experience.)
+* Splunk Architect Certification.
 
-* At least five years of hands-on experience in IT systems administration on Windows or UNIX platforms (RH Linux, SUSE Linux, HP-UX, Solaris, or equivalent). Experience must include specific expertise in using the command line to execute program installation and configuration.
+* Operational experience with a wide array of networking, relational database, security, or server virtualization technologies.
 
-* Three years of experience working with database query languages (T-SQL or equivalent); or experience with a widely available reporting tool (COGNOS, Crystal Reports, SSRS, Tableau, etc.).
+* Experience with Virtualization technologies (VMware ESX, MS Hyper-V).
 
-* Excellent troubleshooting skills and strong technical learning aptitude.
+* Some exposure and experience in one or more of the following programming languages: Java, C++, Python, Ruby, or Perl.
 
-* Understanding of TCP/IP and networking
+* Experience with Regular Expressions (REGEX).
+
+* Previous experience with a software configuration management system (subversion, git, hub, cvs, chef, puppet, SCCM, etc.).
+
+* Microsoft or Linux certifications.
+
+#### Desired
+
+* Strong oral and written communication skills; including documentation.
+
+* Ability to work collaboratively within Splunk analytics team; ability to work independently as well.
+
+* Ability to handle multiple tasks concurrently.
+
+* Strong interpersonal and leadership skills.

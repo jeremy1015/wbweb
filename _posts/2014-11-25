@@ -1,20 +1,16 @@
 ---
 layout: post
-title:  "Java Engineer"
+title:  "Dev Ops / Application Migration / Cloud Developer"
 date:   2014-11-16 05:13:20
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
-location: Herndon, Virginia
-experience: 15 years
-skills: ['Hadoop', 'HDFS', 'Accumulo', 'Spring', 'WHATEV']
-summary: Whatever you put here, it will show up on the open positions page as well as being the lead or callout on the actual job page
+clearance: TS/SCI with Full Scope Polygraph
+location: Centreville, Virginia
+experience: 5 years
+skills: ['Hadoop', 'HDFS', 'Accumulo', 'Skill 3', 'Skill 4']
+summary: We are looking for someone with vision, to help us find unique and interesting ways to use Splunk in the IC. This engineer will work as a Splunk product domain expert, supporting the customer. The Splunk Architect will be responsible for the design and implementation of Splunk infrastructure, deployment, products, apps, reports, alerts, and dashboards for the customer. This engineer will manage Splunk knowledge objects (Apps, Dashboards, Saved Searches, Scheduled Searches, Alerts, etc.), and will be tasked with thinking about how to take Splunk and apply it to data, beyond log files.
 ---
 
-<h3>I think you can mix HTML in, let's find out</h3>
-
-Everything below here is regular old markdown. You can do regular paragraph text. You need to learn the markdown syntax to fully understand what is going on here.
-
-## Four hashtags means an HTML "H4" tag, or the fourth largest header
+#### Required
 
 * True, solid, hands-on Hadoop administrator experience! (We love architects, systems engineers, systems administrators, and developers with Hadoop experience - and we would be happy to talk with them about other programs we work on - but this role requires actual hands-on Hadoop administration experience.)
 
