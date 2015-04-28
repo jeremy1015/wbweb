@@ -5,11 +5,27 @@ title: Open Positions
 <div class="row white-row">
 	<div class="col-md-8">
 		<img src="/assets/images/now-hiring.jpg" style="width:100%;"></img>
-		<ul style="margin-top:-122px; margin-left: 230px;">
-			{% for post in site.posts %}
-			<li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></li>  
-			{% endfor %}
-		</ul>
+		<div class="hidden-sm hidden-xs hidden-md">
+			<ul style="margin-top:-122px; margin-left: 230px;">
+				{% for post in site.posts %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></li>  
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="visible-md-block">
+			<ul style="margin-top:-103px; margin-left: 198px;">
+				{% for post in site.posts %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></li>  
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="visible-sm-block visible-xs-block">
+			<ul>
+				{% for post in site.posts %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></li>  
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 	<div class="col-md-4">
 		<h2>A Great Home<br/>For Great Engineers</h2>
