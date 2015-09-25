@@ -5,7 +5,7 @@ date:   2014-11-16 05:13:20
 categories: jekyll update
 clearance: TS/SCI with Active Polygraph
 location: McLean, Virginia
-experience: 5 years
+experience: 5+ß years
 skills: ['Splunk', 'scripting languages such as BASH, SH, KSH, PowerShell', 'Unix', 'Linux', 'Windows', 'T-SQL', 'TCP/IP']
 summary: We are looking for someone with vision to help us find unique and interesting ways to use Splunk. This engineer will work as a Splunk product domain expert, supporting the customer. The Splunk Architect will be responsible for the design and implementation of Splunk infrastructure, deployment, products, apps, reports, alerts, and dashboards for the customer. This engineer will manage Splunk knowledge objects (Apps, Dashboards, Saved Searches, Scheduled Searches, Alerts, etc.), and will be tasked with thinking about how to take Splunk and apply it to data beyond log files.
 ---

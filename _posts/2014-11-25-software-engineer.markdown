@@ -4,7 +4,8 @@ title:  "Software Engineer"
 date:   2014-11-25
 categories: jekyll update
 clearance: TS/SCI with Active Polygraph
-location: Virginia
+location: Falls Church, Virginia
+experience: Any
 skills: ['Clojure', 'JavaScript (Node or Web)', 'Python', 'Java', 'Groovy', 'Ruby', 'JRuby', 'C#', 'Objective C', 'MongoDB', 'Accumulo', 'Hadoop', 'Map/Reduce', 'Oracle', 'MySQL', 'MS SQL', 'NoSQL', 'MongoDB', 'JavaScript', 'RESTful', 'underscore / lodash', 'AngularJS', 'Compojure', 'Ring', 'Spring', 'Grails', 'Rails', 'Jersey', 'Bootstrap', 'Kanban']
 summary: We have a small team working on a program where we are rearchitecting an legacy system from the ground up and moving it to a cloud database while reimagining the user interface.
 ---
@@ -17,7 +18,7 @@ summary: We have a small team working on a program where we are rearchitecting a
 
 * A desire to learn and work in an environment that favors the functional programming paradigm over object oriented programming
 
-* A TS/SCI is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
+* "Notice: This position requires a TS with SCI eligibility
 
 #### Preferred (In Descending Order):
 

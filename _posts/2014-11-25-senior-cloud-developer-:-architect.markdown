@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "Senior Cloud Developer / Architect"
+title: "Cloud Developer / Architect"
 date: 2014-11-25
 categories: jekyll update
 clearance: TS/SCI with Active Polygraph
-location: Virigina
-experience: 5-10 years
+location: Northern Virigina
+experience: Any
 skills: ['Java, Javascript, C#, Ruby, Python, Perl, or similar', 'Hadoop', 'HDFS', 'HDFS', 'Sqoop', 'MemSQL', 'Linux']
 summary: We seeking a technical architect to recommend, and help us plan, architectural updates for our customer’s technology. The ideal candidate for this role is an architect who is hands-on and likes to code - an engineer who will enjoy assisting with the development of proof of concepts.
 ---
 
-This project applies new big data technologies to a path-breaking and exciting field within the Intelligence Community. The team is small, tight-knit, and extremely talented so the right person for this role will be a strong communicator, who can self-reflect on technical decisions, and balance creativity with practical and provable solutions.
+This project applies new big data technologies to a path-breaking and exciting field within the Intelligence Community. The team is small, tight-knit, and extremely talented. The right person for this role will be a strong communicator, who can self-reflect on technical decisions, and balance creativity with practical and provable solutions.
 
 #### Required
 
-* 5-10+ years of software development, utilizing some combination of the following: Java, Javascript, C#, Ruby, Python, or Perl
+* Hands-on software development experience, utilizing some combination of the following: Java, Javascript, C#, Ruby, Python, or Perl
 
 * Strong experience with Hadoop, HDFS, Sqoop, and related technologies
 

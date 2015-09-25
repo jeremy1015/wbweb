@@ -4,8 +4,8 @@ title:  "Hadoop Administrator"
 date:   2014-11-16 05:13:20
 categories: jekyll update
 clearance: TS/SCI with Active Polygraph
-location: Reston/Herndon, Virginia
-experience: 5 years
+location: Reston, Virginia
+experience: Any
 skills: ['Hadoop', 'HDFS', 'MapReduce', 'Flume/ Sqoop', 'Hive', 'Pig', 'HBase']
 summary: We are looking for a very strong Hadoop Administrator to join us on a proof of concept initiative where a small group will be setting up a Hadoop environment from scratch.
 ---

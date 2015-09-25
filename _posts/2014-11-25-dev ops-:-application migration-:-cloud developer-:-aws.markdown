@@ -4,7 +4,8 @@ title:  "Dev Ops / Application Migration / Cloud Developer"
 date:   2014-11-25
 categories: jekyll update
 clearance: TS/SCI with Active Polygraph
-location: Virginia
+location: Northern Virginia
+experience: any
 skills: ['AWS', 'Java', 'PHP', 'JavaScript', 'Joomla', 'Powershell', 'Unix/Linux', 'MS SQL', 'MySWL', 'Oracle', 'Amazon Relational Database Service', 'CentOS', 'RedHat', 'Windows Server 2008', 'Windows 7', 'EC2', 'S3', 'EBS', 'CloudFront', Elastic Beanstalk', 'CloudFront', 'Amazon DynamoDB', 'Amazon Redshift', 'AWS OpsWorks', 'AWS Tools for Powershell', 'Amazon CloudWatch', 'Elastic Load Balancing', 'AWS Identity and Access Management (IAM)', 'Lotus Notes']
 summary: We are looking for an engineer with web development experience to lead the design, documentation, and migratation custom developed applications and COTS application suites to Amazon Web Services.
 ---

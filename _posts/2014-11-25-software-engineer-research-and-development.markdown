@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Software Engineer - R&D"
+title:  "Software Engineer"
 date:   2014-11-25
 categories: jekyll update
 clearance: TS/SCI with Active Polygraph
-location: Virginia
+location: Washington, D.C.
+experience: Any
 skills: ['Java', 'JavaScript (OpenLayers, ExtJS 4.x, jQuery)', 'Spring', 'Hibernate', 'RESTful', 'Hadoop Ecosystem']
 summary: We are looking for a confident and capable full stack developer that enjoys being challenged and resolving critical path issues, to join Whiteboard's team on an R&D project at one of the National Labs!
 ---
