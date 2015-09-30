@@ -10,7 +10,7 @@ skills: ['Java', 'JavaScript (OpenLayers, ExtJS 4.x, jQuery)', 'Spring', 'Hibern
 summary: We are looking for a confident and capable full stack developer that enjoys being challenged and resolving critical path issues, to join Whiteboard's team on an R&D project at one of the National Labs!
 ---
 
-Every member of our team codes across all tiers, and the desire to do the same is necessary. In a week, you might integrate with a classic RDBMS, NoSQL data store, implement rest services in spring, integrate spring security with OID, and implement UI's with jQuery/ExtJS and D3.js. At the research lab, we move fast and constantly challenge each other (in a good way). You should expect to be able to defend your designs and ideas, without being defensive, and do the same of everyone else's. The team grows from each other's experience and realizes that everyone brings something unique to the team.
+Every member of our team codes across all tiers, and the desire to do the same is necessary. In a week, you might integrate with a classic RDBMS, NoSQL data store, implement REST services in Spring, integrate Spring security with OID, and implement UI's with jQuery/ExtJS and D3.js. At the research lab, we move fast and constantly challenge each other (in a good way). You should expect to be able to defend your designs and ideas, without being defensive, and do the same of everyone else's. The team grows from each other's experience and realizes that everyone brings something unique to the team.
 
 
 #### Required:
