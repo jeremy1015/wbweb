@@ -38,7 +38,7 @@ summary: We are looking for someone with vision to help us find unique and inter
 
 * Experience with Regular Expressions (REGEX)
 
-* Previous experience with a software configuration management system (subversion, git, hub, cvs, chef, puppet, SCCM, etc.)
+* Previous experience with a software configuration management system (Subversion, git, hub, CVS, Chef, Puppet, SCCM, etc.)
 
 * Microsoft or Linux certifications
 
