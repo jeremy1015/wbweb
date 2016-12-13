@@ -18,4 +18,3 @@ The team is small, tight-knit, and extremely talented so the right person for th
 * Experience with COTS and GOTS integration
 * Linux skills
 * Knowledge of Lotus Notes, eCM, DB2, and Exchange a plus
-* A TS/SCI with an active polygraph is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance

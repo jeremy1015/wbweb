@@ -19,8 +19,6 @@ Every member of our team codes across all tiers, and the desire to do the same i
 
 * The list of tools/libraries/architectures that a candidate should be highly proficient in are: Java, JavaScript (OpenLayers, ExtJS 4.x, jQuery), CM Tools (JIRA, Confluence, FishEye, SVN, Subclipse/etc.), CI Tools (Hudson, Jenkins), Maven, ORM (Hibernate 3.6/4.0+), MVC (Spring, ExtJS 4.x), Annotations (e.g. as used in Hibernate/Spring), REST-based web services, HTML, CSS, Java Design Patterns & Best Practice
 
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
-
 #### Desired:
 
 * Familiarity and/or experience with: Hadoop ecology (HDFS, ZooKeeper, writing MapReduce jobs)

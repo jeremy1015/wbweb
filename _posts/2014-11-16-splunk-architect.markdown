@@ -24,8 +24,6 @@ summary: We are looking for someone with vision to help us find unique and inter
 
 * Excellent troubleshooting skills and strong technical learning aptitude
 
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
-
 #### Preferred
 
 * Splunk Architect Certification

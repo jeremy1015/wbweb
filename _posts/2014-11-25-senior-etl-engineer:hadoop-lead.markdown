@@ -20,5 +20,3 @@ summary: Senior ETL Engineer / Hadoop Lead for a proof of concept program. Small
 * 2+ years of Hadoop experience
 
 * 7+ years of overall experience
-
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance

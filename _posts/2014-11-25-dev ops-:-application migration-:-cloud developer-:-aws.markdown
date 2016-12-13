@@ -28,9 +28,6 @@ summary: We are looking for an engineer with web development experience to lead 
 
 * Strong written and oral communication skills
 
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
-
-
 #### Preferred
 
 * Elastic Compute Cloud (EC2)

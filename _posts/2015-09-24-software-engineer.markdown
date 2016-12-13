@@ -13,7 +13,6 @@ summary: We are looking for an enthusiastic software engineer to join us on a hi
 #### Required:
 * 5 years of experience, 2-3 of which must be program proven Java experience (no self/college projects)
 * BS in Computer Science, or related degree
-* A TS/SCI with an active polygraph is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
 
 #### Preferred (In Descending Order):
 

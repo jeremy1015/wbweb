@@ -17,5 +17,3 @@ This project applies new big data technologies to a path-breaking and exciting f
 * Data Science background and experience with some of the following technologies: WebGL, Titan, TinkerGraph, Neo4j, OrientDB, DEX, Oracle Berkeley DB, Sail RDF Stores, HBase, Cassandra, GraphX, Apache Spark, ElasticSearch, Solr, Lucene, Hadoop, TinkerPop, Gremlin, Frames, Rexster, Blueprints, Furnace, Pipes
 
 * Programming background (Java, Groovy, Scala, preferred)
-
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance.

@@ -29,5 +29,3 @@ While the project is research oriented, its fruits will be applied to a mission-
 * Ability to load data into the cluster from dynamically-generated files using Flume and from relational database management systems using Sqoop, preferred
 
 * A firm handle on what system administration issues exist within the Hadoop ecosystem and associated components such as Hive, Pig, and HBase
-
-* A TS/SCI with an active poly is required by our customer. Please do not apply for this role if you do not hold this specific US security clearance
