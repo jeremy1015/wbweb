@@ -5,7 +5,26 @@ title: Open Positions
 <div class="row white-row">
 	<div class="col-md-8">
 		<img src="/assets/images/now-hiring-web.png" style="width:100%;"></img>
-		<div id="grnhse_app">
+		<div class="hidden-sm hidden-xs hidden-md">
+			<ul style="margin-top:-122px; margin-left: 230px;">
+				{% for post in site.posts %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="visible-md-block">
+			<ul style="margin-top:-103px; margin-left: 198px;">
+				{% for post in site.posts %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="visible-sm-block visible-xs-block">
+			<ul>
+				{% for post in site.posts %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.location }}</small></li>
+				{% endfor %}
+			</ul>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -16,4 +35,3 @@ title: Open Positions
 		<p>Whiteboard Federal Technologies is committed to being an Equal Opportunity Employer. Read our full statement <a target="_blank" href="{{ "/assets/files/WBF_EEO%20Policy_effective%2001.01.17_Signed%20by%20CEO.pdf" | prepend: site.baseurl }}">here</a>.<p>
 	</div>
 </div>
-<script src="https://boards.greenhouse.io/embed/job_board/js?for=whiteboardfederal"></script>
