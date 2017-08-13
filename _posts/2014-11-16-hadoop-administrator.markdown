@@ -3,7 +3,7 @@ layout: post
 title:  "Hadoop Administrator"
 date:   2014-11-16 05:13:20
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Reston, Virginia
 experience: Any
 skills: ['Hadoop', 'HDFS', 'MapReduce', 'Flume/ Sqoop', 'Hive', 'Pig', 'HBase']

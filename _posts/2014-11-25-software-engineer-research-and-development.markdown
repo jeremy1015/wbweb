@@ -3,7 +3,7 @@ layout: post
 title:  "Software Engineer"
 date:   2014-11-25
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Washington, D.C.
 experience: Any
 skills: ['Java', 'JavaScript (OpenLayers, ExtJS 4.x, jQuery)', 'Spring', 'Hibernate', 'RESTful', 'Hadoop Ecosystem']

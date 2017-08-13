@@ -3,7 +3,7 @@ layout: post
 title: "Systems Engineer, Development and Integration"
 date: 2016-12-13
 categories: jekyll update
-clearance: TS/SCI with favorable Polygraph
+clearance: TS/SCI
 location: Northern Virginia
 experience: 2+
 skills: ['Linux', 'AWS', 'bash/sh', 'Python', 'Ruby', 'Perl', 'MySQL', 'Tomcat', 'Apache', 'Hudson', 'Cruise Control', 'Artifactory', 'Docker', 'Vagrant', 'Chef', 'Puppet', 'Systems Administration', 'DevOps']
@@ -19,7 +19,7 @@ summary: We are looking for hands-on, technical systems engineers who can provid
 * Excellent, client-facing communication skills. Ability to work with engineers and non-technical team * members. Ability to brief senior-level customers
 * Ability to provide analysis, insight, metrics, reporting, and guidance on areas including, but not * limited, to: the technical components of a system and the relationships between those components, * system dependencies, infrastructure requirements, software/tools/methodologies, data, integration, * validation, and security
 * Experience with project management frameworks
-* TS/SCI with a favorable polygraph
+* TS/SCI
 
 #### Preferred (In Descending Order):
 

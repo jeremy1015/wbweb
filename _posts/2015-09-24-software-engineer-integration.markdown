@@ -3,7 +3,7 @@ layout: post
 title: "Software Engineer - Integration"
 date: 2015-09-01
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Northern Virigina
 experience: Any
 skills: ['Java', 'Ruby', 'Lotus Notes', 'COTS/GOTS Integration', 'DB2', 'eCM', Exchange]

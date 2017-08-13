@@ -3,7 +3,7 @@ layout: post
 title: "Software Engineer"
 date: 2015-09-01
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Columbia, MD
 experience: 5+
 skills: ['JavaScript', 'Python', 'C', 'RESTful Web Services', 'Apache Tomcat', 'MongoDB', 'MySQL', 'Unix', 'VM Administration', 'SIGINT']

@@ -3,7 +3,7 @@ layout: post
 title: "Data Scientist"
 date: 2015-09-01
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Herndon, VA
 experience: Any
 skills: ['Statistics', 'Machine Learning', 'Advanced Mathematics', 'Algorithm Development', 'Software Engineering', 'Java', 'Scala', 'Python', 'R', 'SQL', 'Data Analysis / Design / Modeling / Visualization']

@@ -3,7 +3,7 @@ layout: post
 title: "Data Scientist Graph Database Specialist"
 date: 2014-11-25
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Chantilly, Virigina
 experience: Any
 skills: ['Java', 'Groovy', 'Scala', 'WebGL', 'Titan', 'TinkerGraph', 'Neo4J', 'OrientDB', 'DEX', 'Oracle Berkely DB', 'Sail DRF Stores', 'HBase', 'Cassandara', 'GraphX', 'Apahce Spark', 'Elastic Search', 'Solr', 'Lucene', 'Hadoop', 'TinkerPop', 'Gremlin', 'Frames', 'Rexster', 'Blueprints', 'Furnace', 'Pipes']

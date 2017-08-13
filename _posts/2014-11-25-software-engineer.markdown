@@ -3,7 +3,7 @@ layout: post
 title:  "Software Engineer"
 date:   2014-11-25
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Alexandria, Virginia
 experience: Any
 skills: ['Clojure', 'JavaScript (Node or Web)', 'Python', 'Java', 'Groovy', 'Ruby', 'JRuby', 'C#', 'Objective C', 'MongoDB', 'Accumulo', 'Hadoop', 'Map/Reduce', 'Oracle', 'MySQL', 'MS SQL', 'NoSQL', 'MongoDB', 'JavaScript', 'RESTful', 'underscore / lodash', 'AngularJS', 'Compojure', 'Ring', 'Spring', 'Grails', 'Rails', 'Jersey', 'Bootstrap', 'Kanban']

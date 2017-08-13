@@ -3,7 +3,7 @@ layout: post
 title: "Cloud Developer / Architect"
 date: 2014-11-25
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Northern Virigina
 experience: Any
 skills: ['Java, Javascript, C#, Ruby, Python, Perl, or similar', 'Hadoop', 'HDFS', 'HDFS', 'Sqoop', 'MemSQL', 'Linux']

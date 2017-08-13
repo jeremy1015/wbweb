@@ -3,10 +3,10 @@ layout: post
 title:  "ETL Engineer / Hadoop Lead"
 date:   2014-11-16 05:13:20
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: Herndon, Virginia
 skills: ['Hadoop', 'HDFS', 'MapReduce', 'HBase', 'Java', 'data modeling', 'systems architecture', 'ETL']
-summary: Senior ETL Engineer / Hadoop Lead for a proof of concept program. Small team, bright people, standing up a Hadoop environment from scratch. We are looking for someone to be the source of Hadoop expertise on the team. A TS/SCI with an active poly is required by our customer.
+summary: Senior ETL Engineer / Hadoop Lead for a proof of concept program. Small team, bright people, standing up a Hadoop environment from scratch. We are looking for someone to be the source of Hadoop expertise on the team. Appropriate clearance is required by our customer.
 ---
 
 #### Required

@@ -3,7 +3,7 @@ layout: post
 title:  "Splunk Architect"
 date:   2014-11-16 05:13:20
 categories: jekyll update
-clearance: TS/SCI with Active Polygraph
+clearance: TS/SCI
 location: McLean, Virginia
 experience: 5+ß years
 skills: ['Splunk', 'scripting languages such as BASH, SH, KSH, PowerShell', 'Unix', 'Linux', 'Windows', 'T-SQL', 'TCP/IP']
