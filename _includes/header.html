@@ -1,42 +1,41 @@
-
-<!-- Top Bar -->
-    <!-- TOP NAV -->
-    <header id="topNav">
-      <div class="container">
-
-        <!-- Mobile Menu Button -->
-        <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
-          <i class="fa fa-bars"></i>
-        </button>
-
-        <!-- Logo text or image -->
-        <a class="logo" href="{{ "/index.html" | prepend: site.baseurl }}">
-          <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" alt="Whiteboard Federal" style="height:60px;"/>
-        </a>
-
-        <!-- Top Nav -->
-        <div class="navbar-collapse nav-main-collapse collapse pull-right">
-          <nav class="nav-main mega-menu">
-            <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-              <li role="presentation"><a href="{{ "/index.html" | prepend: site.baseurl }}">Home</a></li>
-              <li role="presentation"><a href="{{ "/services.html" | prepend: site.baseurl }}">Capabilities</a></li>
-              <li role="presentation"><a href="{{ "/open-positions.html" | prepend: site.baseurl }}">Join The Team</a></li>
-              <li role="presentation"><a href="{{ "/philosophy.html" | prepend: site.baseurl }}">Why Work Here?</a></li>
-              <li role="presentation"><a href="{{ "/contact.html" | prepend: site.baseurl }}">Contact Us</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Employee Links <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li role="presentation"><a target="_blank" href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope-o"></i>  Email</a></li>
-                  <li role="presentation"><a target="_blank" href="https://whfedtechcorp.unanet.biz/whfedtechcorp/action/login"><i class="fa fa-clock-o"></i>  Timesheets</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
+<div class="position-relative container-fluid">
+  <a class="navbar-brand mr-auto" href="{{ "/index.html" | prepend: site.baseurl }}">
+    {% include svg/logo-white.html %}
+  </a>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navbarCollapse1">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ "/capabilities.html" | prepend: site.baseurl }}">Capabilities</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDocs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Careers</a>
+        <div class="dropdown-menu d-block d-lg-table" aria-labelledby="navbarDocs">
+          <div class="row no-gutters d-flex d-lg-table-row flex-lg-nowrap mb-2">
+            <div class="d-lg-table-cell col">
+              <div class="row no-gutters d-lg-table-row"><div class="col">
+                <a class="dropdown-item pt-0 pb-1" href="{{ "/careers.html" | prepend: site.baseurl }}"><span>Working At Whiteboard</span></a>
+                <a class="dropdown-item pt-0 pb-1" href="{{ "/openings.html" | prepend: site.baseurl }}"><span>Current Openings </span></a>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- /Top Nav -->
-
-      </div>
-    </header>
-
-    <span id="header_shadow" style="top:80px;"></span>
-    <!-- /TOP NAV -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ "/about.html" | prepend: site.baseurl }}">About Us</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDocs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Employee Portal</a>
+        <div class="dropdown-menu d-block d-lg-table" aria-labelledby="navbarDocs">
+          <div class="row no-gutters d-flex d-lg-table-row flex-lg-nowrap mb-2">
+            <div class="d-lg-table-cell col">
+              <div class="row no-gutters d-lg-table-row"><div class="col">
+                <h6 class="dropdown-header text-uppercase pt-3 pb-2">Organization</h6>
+                <a class="dropdown-item pt-0 pb-1" href="event.html"><span>Event </span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

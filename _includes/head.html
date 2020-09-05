@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="shortcut icon" href="{{ "/assets/images/wbimg/wbficon.png" | prepend: site.baseurl }}">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   
 	<!-- mobile settings -->
 	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
@@ -15,25 +15,10 @@
 	<!-- WEB FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet" type="text/css" />
 
-	<!-- CORE CSS -->
-	<link rel="stylesheet" href="{{ "/assets/plugins/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/css/font-awesome.css" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/plugins/owl-carousel/owl.carousel.css" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/plugins/owl-carousel/owl.theme.css" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/plugins/owl-carousel/owl.transitions.css" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/plugins/magnific-popup/magnific-popup.css" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/css/animate.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="{{ "/assets/css/superslides.css" rel="stylesheet" | prepend: site.baseurl }}" type="text/css"/>
-	<link rel="stylesheet" href="{{ "/assets/css/color_scheme/darkblue.css" | prepend: site.baseurl }}"/>
-	
-	<!-- REVOLUTION SLIDER -->
-	<link rel="stylesheet" href="{{ "/assets/plugins/revolution-slider/css/settings.css" | prepend: site.baseurl }}"/>
-
-	<!-- THEME CSS -->
-	<link rel="stylesheet" href="{{ "/assets/css/essentials.css" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/css/layout.css" rel="stylesheet" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/css/layout-responsive.css" | prepend: site.baseurl }}"/>
-	<link rel="stylesheet" href="{{ "/assets/css/color_scheme/darkblue.css" | prepend: site.baseurl }}"/>
+  <!-- CORE CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="{{ "/assets/css/theme.min.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/assets/fa/css/all.min.css" | prepend: site.baseurl }}" />
 	
 	<!-- Modernizr -->
 	<script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
