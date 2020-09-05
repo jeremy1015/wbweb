@@ -4,7 +4,6 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Whiteboard Federal technologies is a leading provider of software engineering services for the United States intelligence community.
 baseurl: "/wbweb" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

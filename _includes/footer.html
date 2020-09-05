@@ -4,7 +4,7 @@
   <div class="container-fluid">
     <div class="row justify-content-md-between">
       <div class="col-md-5 col-lg-4 d-flex flex-column justify-content-between">
-        <a class="navbar-brand mr-auto" href="{{ "/index.html" | prepend: site.baseurl }}">
+        <a class="navbar-brand mr-auto" href="{{ "/index.html" | relative_url }}">
           {% include svg/logo-white.html %}
         </a>
       </div>
@@ -22,15 +22,15 @@
           <div class="col-6 col-md-4 mb-4 mb-md-0">
             <h3 class="h6 text-uppercase mb-3">Company</h3>
             <ul class="list-unstyled">
-              <li class="mb-1"><a href="capabilities.html" class="text-reset">Capabilities</a></li>
-              <li class="mb-1"><a href="about.html" class="text-reset">About Us</a></li>
+              <li class="mb-1"><a href="{{ "/capabilities.html" | relative_url  }}" class="text-reset">Capabilities</a></li>
+              <li class="mb-1"><a href="{{ "/about.html" | relative_url }}" class="text-reset">About Us</a></li>
             </ul>
           </div>
           <div class="col-6 col-md-4 mb-4 mb-md-0">
             <h3 class="h6 text-uppercase mb-3">Careers</h3>
             <ul class="list-unstyled">
-              <li class="mb-1"><a href="careers.html" class="text-reset">Working At Whiteboard</a></li>
-              <li class="mb-1"><a href="openings.html" class="text-reset">Openings</a></li>
+              <li class="mb-1"><a href="{{ "/careers.html" | relative_url }}" class="text-reset">Working At Whiteboard</a></li>
+              <li class="mb-1"><a href="{{ "/openings.html" | relative_url }}" class="text-reset">Openings</a></li>
             </ul>
           </div>
         </div>
@@ -42,8 +42,8 @@
 
 <!-- JAVASCRIPT FILES -->
 
-<script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="{{ "/lib/jquery-2.1.1.min.js" | relative_url }}"></script>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="assets/js/theme.core.min.js"></script>
-<script type="text/javascript" src="assets/js/theme.min.js"></script>
+<script type="text/javascript" src="{{ "/assets/js/theme.core.min.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/theme.min.js" | relative_url }}"></script>
