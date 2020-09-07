@@ -1,0 +1,10 @@
+.specialheader {
+  color:green!important;
+}
+
+@media (max-width: 600px) {
+  .specialheader {
+    color:red;
+  }
+}
+

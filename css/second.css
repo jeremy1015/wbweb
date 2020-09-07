@@ -1,0 +1,12 @@
+@media (min-width: 769px) {
+  .homelead {
+    font-size:5.0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .homesub {
+    font-size:1.0rem!important;
+    margin-top:1.5rem!important;
+  }
+}
